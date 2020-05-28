@@ -5,4 +5,5 @@ class User < ActiveRecord::Base
     def self.tty_prompt
         TTY::Prompt.new
     end
+
 end
